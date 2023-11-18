@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;900&display=swap');
 /*
 primary: powderblue;
-secondary: beige;
+secondary: beige & darkgreen;
 */
 
 html {
@@ -13,6 +13,13 @@ body {
     background-color:powderblue;
     font-family: Rubik, Calibri, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
 }
+
+/* Media query breakpoint for mobiles (screens 600px and below) */
+@media (max-width: 600px) {
+    body {
+        background-color: steelblue;
+    }
+  }
 
 header ul {
     display: flex;
