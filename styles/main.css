@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;900&display=swap');
+/*
+primary: powderblue;
+secondary: beige & darkgreen;
+*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    background-color:powderblue;
+    font-family: Rubik, Calibri, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+
+/* Media query breakpoint for mobiles (screens 600px and below) */
+@media (max-width: 600px) {
+    body {
+        background-color: steelblue;
+    }
+  }
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Rubik, Calibri, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+
+header nav li a {
+    background-color: darkgreen;
+    border: 3px solid white;
+    color: white;
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    background-color: purple;
+}
+
+img {
+    border: 5px inset beige;
+    float: none;
+    margin-right: 1.5em;
+}
+
+section#about img:first-of-type {
+    border-color: darkgreen;
+}
+
+section#about  {
+    background-color: aqua;
+    border: 2px dotted darkgreen;
+}
+
+section#goals  {
+    background-color: aqua;
+}
+
+footer  {
+    color: white;
+    background-color: dodgerblue;
+}
+
+aside {
+    background-color: beige;
+    border: 2px dotted darkgreen;
+    width: 350px;
+    float: none;
+    padding: 1em;
+    margin-left: 1em;
+    border-radius: 10px;
+}
+
+section#about > p:first-of-type::first-letter {
+    background-color: darkgreen;
+    border: 1px solid beige;
+    color: beige;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 5px 5px;
+}
+
+table, th, td {
+    border:1px solid darkgreen;
+  }
+
+::selection {
+    background: darkgreen;
+    color: #fff;
+    }
+
+    /* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: beige;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
