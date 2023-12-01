@@ -19,8 +19,8 @@ let count = 1;
 document.getElementById('btn-counter').onclick = () => {
      count = count + 1;
      document.getElementById('txt-counter').innerHTML = 'Number: ' +count
-
-     document.getElementById('txt-counter').classList.remove("even", "odd");
+     
+     document.getElementById('txt-counter').className = '';
 
      if (count % 2 == 0) {
     document.getElementById('txt-counter').classList.add('even');
